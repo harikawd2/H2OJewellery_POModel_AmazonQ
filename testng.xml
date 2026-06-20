@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="H2O Jewellery POM Test Suite">
+
+	<listeners>
+		<listener class-name="com.listeners.ExtentReportManager" />
+	</listeners>
+
+	<test name="H2O Jewellery Tests">
+		<classes>
+			<class name="com.testcases.TC_01_Login" />
+			<class name="com.testcases.TC_02_SignUp" />
+			<class name="com.testcases.TC_03_Logout" />
+		</classes>
+	</test>
+
+</suite>
