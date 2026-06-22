@@ -11,6 +11,10 @@
 			<class name="com.testcases.TC_01_Login" />
 			<class name="com.testcases.TC_02_SignUp" />
 			<class name="com.testcases.TC_03_Logout" />
+			<class name="com.testcases.TC_04_Gold" />
+			<class name="com.testcases.TC_05_Diamond" />
+			<class name="com.testcases.TC_06_Silver" />
+			<class name="com.testcases.TC_07_Cart" />
 		</classes>
 	</test>
 
