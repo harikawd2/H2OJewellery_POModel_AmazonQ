@@ -19,7 +19,15 @@ public class HomePage extends BaseTest {
 	}
 
 	public boolean isLogoutButtonDisplayed() {
-		return driver.findElements(logout_Button).size() > 0;
+		try {
+			return driver.findElement(logout_Button).isDisplayed();
+		} catch (Exception e) {
+			return false;
+		}
+	}
+	
+	public boolean isLogoutButtonEnabled() {
+		return driver.findElements(logout_Button).get(0).isEnabled();
 	}
 
 	public void clickAddDevice() {
