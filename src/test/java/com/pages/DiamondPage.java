@@ -64,5 +64,6 @@ public class DiamondPage extends BaseTest {
 		WebElement el = driver.findElements(addToCart_Buttons).get(0);
 		highlightElement(el);
 		el.click();
+		acceptAlert();
 	}
 }

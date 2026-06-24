@@ -36,6 +36,7 @@ public class SilverPage extends BaseTest {
 		WebElement el = driver.findElements(addToCart_Buttons).get(0);
 		highlightElement(el);
 		el.click();
+		acceptAlert();
 	}
 
 	public String getFirstSilverItemName() {
