@@ -11,7 +11,7 @@ public class GoldPage extends BaseTest {
 	private By h2oJewellery_Tab      = By.xpath("//button[@class='tab-button' and contains(text(),'H2O Jewellery')]");
 
 	// Gold sub-tab & section
-	private By gold_SubTab           = By.xpath("//button[@class='sub-tab-button active' and text()='Gold']");
+	private By gold_SubTab           = By.xpath("//button[contains(@class,'sub-tab-button') and text()='Gold']");
 	private By goldSection           = By.id("gold");
 
 	// Gold side-menu category buttons
